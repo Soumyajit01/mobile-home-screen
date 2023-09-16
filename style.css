@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #313638;
+}
+
+.mobile {
+    background-image: url('https://wallpaperaccess.com/full/790994.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50vh;
+    /* background: #FAF9F6; */
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 2px blue;
+}
+
+.bottomButtons {
+    display: flex;
+    /* color: white; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cameraHole {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contents {
+    height: 80vh;
+}
+
+.googleSearch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.googleSearch .searchBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 80%; */
+    background: #FAF9F6;
+    border-radius: 20px;
+}
+
+.googleSearch .searchBox img {
+    margin: 3px 3px;
+    height: 30px;
+}
+
+.googleSearch .searchBox input {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background: none;
+}
+
+.topInfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.topInfo li {
+    list-style: none;
+    margin: 0px 2px;
+}
+
+.time {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    font-size: 10vh;
+    margin-top: 7vh;
+    color: white;
+    /* background: red; */
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 40vh;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.monthDateDay {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    /* width: 60%; */
+}
+.monthDateDay div {
+    margin: 0px 2px;
+}
+
+.dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.dots svg {
+    color: white;
+    margin: 0px 3px;
+    height: 10px;
+
+}
+.apps{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 20px;
+    align-items: center;
+}
+.apps img{
+    height: 7vh;
+
+}
+.bgmeme{
+    background-image: url('https://indianmemetemplates.com/wp-content/uploads/troll-face.jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
